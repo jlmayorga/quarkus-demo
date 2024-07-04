@@ -11,6 +11,7 @@ public class GoodbyeResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
+        System.out.println("Goodbye from Quarkus!");
         return "Hello from Quarkus REST";
     }
 
